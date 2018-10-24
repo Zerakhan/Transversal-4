@@ -8,7 +8,6 @@ public class Pregunta : MonoBehaviour {
     public int purga = 1;
     public GameObject Prego;
     public GameObject Brego;
-    public GameObject Trego;
     public bool Vaya = true;
 
     void Update () {
@@ -20,13 +19,8 @@ public class Pregunta : MonoBehaviour {
 
         }
         else if (Preguntado == 2)
-        {
-            Trego.SetActive(true);
+        { 
             Brego.SetActive(false);
-        }
-        else if (Preguntado ==3)
-        {
-            Trego.SetActive(false);
             FinOrden();
         }
 
@@ -42,5 +36,9 @@ public class Pregunta : MonoBehaviour {
     public void FinOrden()
     {
         dir.FinOrdenes(this, Vaya);
+    }
+    public void Infografía()
+    {
+        Preguntado++;
     }
 }

@@ -22,6 +22,7 @@ public class Director : MonoBehaviour {
     public static int zare = 2;
     public static int zere = 3;
     public static int zera = 4;
+    public int Buena = 0;
 
     void Start()
     {
@@ -85,25 +86,33 @@ public class Director : MonoBehaviour {
             Trego.SetActive(false);
             Rrego.SetActive(true);
         }
+
+        if (Preguntado = 14)
+        {
+            Frego.SetActive(false);
+            Prego.SetActive(false);
+            Brego.SetActive(false);
+            Grego.SetActive(false);
+            Trego.SetActive(false);
+            Rrego.SetActive(false);
+        }
     }
     public void Clicked()
     {
         Preguntado += purga;
     }
-
     public void FinOrdenes(Pregunta pregunta, bool Vaya)
     {
+        Preguntado = 1;
         Raro = Vaya;
-        Rara = false;
-        Roro = false;
-        Rora = false;
+        Zeras++;
+        if(Zeras == zara)
+        {
+            Buena++;
+        }
     }
     public void VayaToalla(Pregunta pregunta, bool Vaya)
     {
-    Raro = Vaya;
-    Rara = Vaya;
-    Roro = Vaya;
-    Rora = Vaya;
-}
-
+        Preguntado = 14;
+    }
 }
