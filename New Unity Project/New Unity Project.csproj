@@ -300,6 +300,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="New Unity Project.Plugins.csproj">
+      <Project>{63576ABA-4A40-934C-D330-C7D17E72811A}</Project>
+      <Name>New Unity Project.Plugins</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.StandardEvents.csproj">
       <Project>{6800202F-4402-D405-F8CB-03DC7BD78B92}</Project>
       <Name>UnityEditor.StandardEvents</Name>
@@ -320,8 +324,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Director.cs" />
     <Compile Include="Assets\Scripts\Pregunta.cs" />
+    <Compile Include="Assets\Scripts\text.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Plugins\Ink\Editor\Resources\InkDefaultTemplate.txt" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />

@@ -87,7 +87,7 @@ public class Director : MonoBehaviour {
             Rrego.SetActive(true);
         }
 
-        if (Preguntado = 14)
+        if (Preguntado == 14)
         {
             Frego.SetActive(false);
             Prego.SetActive(false);
