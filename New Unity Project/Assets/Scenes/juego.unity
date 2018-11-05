@@ -145,7 +145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -514}
+  m_AnchoredPosition: {x: 1014.8976, y: -334.3603}
   m_SizeDelta: {x: 1880, y: 27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4994733
@@ -1742,11 +1742,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ebff3267ab478334d8230db802d1e3cc, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.11
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1858,7 +1858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &515547254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3499,7 +3499,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -571.5}
+  m_AnchoredPosition: {x: 1014.8976, y: -1013.5809}
   m_SizeDelta: {x: 1880, y: 16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1006524608
@@ -3899,6 +3899,7 @@ GameObject:
   - component: {fileID: 1078201116}
   - component: {fileID: 1078201115}
   - component: {fileID: 1078201114}
+  - component: {fileID: 1078201113}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3906,6 +3907,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1078201113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1078201112}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1297475563, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 7
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
 --- !u!114 &1078201114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5334,7 +5357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -545.5}
+  m_AnchoredPosition: {x: 1014.8976, y: -676.7206}
   m_SizeDelta: {x: 1880, y: 16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1467609363
