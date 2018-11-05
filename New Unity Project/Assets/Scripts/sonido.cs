@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class sonido : MonoBehaviour {
 
-    private AudioSource audioSrc;
-    private float musicVolume = 1f;
+    public AudioSource audioSrc;
+    public float musicVolume = 0.5f;
 
     void Start()
     {

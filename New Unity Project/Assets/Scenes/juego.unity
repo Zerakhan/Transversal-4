@@ -1733,6 +1733,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4dfe69b93725c4883cb3d923543440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSrc: {fileID: 0}
+  musicVolume: 0.5
 --- !u!82 &498532050
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1744,7 +1746,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ebff3267ab478334d8230db802d1e3cc, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.11
+  m_Volume: 0.023
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4581,7 +4583,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
