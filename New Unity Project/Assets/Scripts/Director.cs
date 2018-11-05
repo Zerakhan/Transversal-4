@@ -10,6 +10,8 @@ public class Director : MonoBehaviour {
     public GameObject Frego;
     public GameObject Trego;
     public GameObject Lego;
+    public Camera Cam;
+    public GameObject Prota;
 
     void Start()
     {
@@ -28,8 +30,10 @@ public class Director : MonoBehaviour {
         }
         else if (Preguntado == 1)
         {
-            Frego.SetActive(false);
-            Brego.SetActive(true);
+         Cam;
+         Cam.transform.LookAt(Prota.transform.position);
+         Frego.SetActive(false);
+         Brego.SetActive(true);
         }
         else if (Preguntado == 2)
         {

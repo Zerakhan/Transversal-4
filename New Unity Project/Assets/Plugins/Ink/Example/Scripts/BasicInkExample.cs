@@ -40,8 +40,11 @@ public class BasicInkExample : MonoBehaviour {
 			for (int i = 0; i < story.currentChoices.Count; i++) {
 				Choice choice = story.currentChoices [i];
 				Button button = CreateChoiceView (choice.text.Trim ());
-				// Tell the button what to do when we press it
-				button.onClick.AddListener (delegate {
+                float theta = (2 * Mathf.PI / story.currentChoices.Count) * i;
+                float xPos = Mathf.Sin(theta);
+                float yPos = Mathf.Cos(theta);
+                button.transform.localPosition = new Vector3(xPos, yPos, 0f) * 100f;
+                button.onClick.AddListener (delegate {
 					OnClickChoiceButton (choice);
 				});
 			}
