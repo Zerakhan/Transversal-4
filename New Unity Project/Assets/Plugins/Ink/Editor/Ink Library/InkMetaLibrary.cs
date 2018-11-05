@@ -54,7 +54,7 @@ namespace Ink.UnityIntegration {
 		}
 
 		private static InkMetaLibrary FindLibrary () {
-			if(EditorPrefs.HasKey(pathPlayerPrefsKey)) {
+		    if(EditorPrefs.HasKey(pathPlayerPrefsKey)) {
 				try {
 					return JsonUtility.FromJson<InkMetaLibrary>(EditorPrefs.GetString(pathPlayerPrefsKey));
 				} catch {
@@ -72,7 +72,7 @@ namespace Ink.UnityIntegration {
 					metaFile.inkAsset = AssetDatabase.LoadAssetAtPath<DefaultAsset>(metaFile.inkAssetPath);
 					if(metaFile.inkAsset == null) {
 						foundDiscrepancy = true;
-						Debug.LogWarning("Ink file for asset "+AssetDatabase.GetAssetPath(metaFile.inkAsset)+" was not found. Path was "+metaFile.inkAssetPath);
+ 
 					}
 				}
 				if(metaFile.masterInkAsset != null && metaFile.masterInkFile == null) {
