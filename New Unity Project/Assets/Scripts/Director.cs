@@ -14,7 +14,7 @@ public class Director : MonoBehaviour {
     public GameObject Prota;
 
     void Start()
-    {
+    { 
         Trego.SetActive(false);
         Prego.SetActive(false);
         Brego.SetActive(false);
@@ -30,13 +30,14 @@ public class Director : MonoBehaviour {
         }
         else if (Preguntado == 1)
         {
-         Cam;
+         Cam.GetComponent<moverCamara>().enabled = false;
          Cam.transform.LookAt(Prota.transform.position);
          Frego.SetActive(false);
          Brego.SetActive(true);
         }
         else if (Preguntado == 2)
         {
+            Cam.GetComponent<moverCamara>().enabled = true;
             Brego.SetActive(false);
             Prego.SetActive(true);
         }
