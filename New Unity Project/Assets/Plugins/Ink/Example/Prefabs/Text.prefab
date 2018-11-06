@@ -78,6 +78,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_FontSize: 20
 =======
     m_FontSize: 45
@@ -88,6 +89,9 @@ MonoBehaviour:
 =======
     m_FontSize: 30
 >>>>>>> parent of 0f044b7... jijijuju 2
+=======
+    m_FontSize: 30
+>>>>>>> parent of 9324b58... aa
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -98,6 +102,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_RichText: 0
+<<<<<<< HEAD
 =======
     m_RichText: 1
 >>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
@@ -110,6 +115,9 @@ MonoBehaviour:
     m_RichText: 0
     m_HorizontalOverflow: 1
 >>>>>>> parent of 0f044b7... jijijuju 2
+=======
+    m_HorizontalOverflow: 1
+>>>>>>> parent of 9324b58... aa
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
