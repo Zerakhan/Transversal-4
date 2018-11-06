@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
 Base path: C:/Program Files/Unity/Editor/Data
 =======
 Base path: F:/Unity 2108 2.10/Editor/Data
@@ -11,6 +14,7 @@ Cmd: compileSnippet
 Cmd: compileSnippet
 <<<<<<< HEAD
   api=5 type=1 insize=1693 outsize=0 kw= pd=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_MOBILE UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING ok=1
+<<<<<<< HEAD
 =======
 Base path: D:/unity 2.13/Editor/Data
 =======
@@ -84,6 +88,8 @@ Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 >>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler

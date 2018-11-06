@@ -1733,8 +1733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4dfe69b93725c4883cb3d923543440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSrc: {fileID: 0}
-  musicVolume: 0.5
 --- !u!82 &498532050
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1748,6 +1746,7 @@ AudioSource:
   m_PlayOnAwake: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Volume: 0.156
 =======
   m_Volume: 0.023
@@ -1755,6 +1754,9 @@ AudioSource:
 =======
   m_Volume: 0.11
 >>>>>>> parent of 9324b58... aa
+=======
+  m_Volume: 0.156
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4591,7 +4593,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.5
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:

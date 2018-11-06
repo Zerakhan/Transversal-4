@@ -57,6 +57,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 130
 =======
   controlID: 105
@@ -82,6 +83,9 @@ MonoBehaviour:
   controlID: 9
 >>>>>>> 9a6d439f11e821123fff378282a2866430dd0a30
 >>>>>>> parent of 9324b58... aa
+=======
+  controlID: 130
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,14 +103,12 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     x: 1085
     y: 0
     width: 437
-=======
-    x: 1214
-    y: 0
-    width: 308
->>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
     height: 717
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
@@ -153,6 +155,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 316
     height: 434
 =======
@@ -163,6 +166,10 @@ MonoBehaviour:
     width: 379
     height: 573
 >>>>>>> parent of c078cb0... jujujeje
+=======
+    width: 316
+    height: 434
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
 =======
@@ -194,6 +201,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 434
     width: 1085
     height: 283
@@ -212,6 +220,11 @@ MonoBehaviour:
     width: 1225
     height: 289
 >>>>>>> parent of 9324b58... aa
+=======
+    y: 434
+    width: 1085
+    height: 283
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
@@ -319,14 +332,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    width: 1085
+<<<<<<< HEAD
 =======
-    width: 1214
->>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
+    width: 1085
     height: 717
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -360,6 +374,9 @@ MonoBehaviour:
   controlID: 10
 >>>>>>> 9a6d439f11e821123fff378282a2866430dd0a30
 >>>>>>> parent of 9324b58... aa
+=======
+  controlID: 61
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -381,12 +398,16 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     width: 1085
     height: 434
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
   controlID: 62
+<<<<<<< HEAD
 =======
     width: 1214
     height: 433
@@ -423,6 +444,8 @@ MonoBehaviour:
   controlID: 11
 >>>>>>> 9a6d439f11e821123fff378282a2866430dd0a30
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -440,10 +463,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     x: 316
     y: 0
     width: 769
     height: 434
+<<<<<<< HEAD
 =======
     x: 301
     y: 0
@@ -462,15 +489,17 @@ MonoBehaviour:
     width: 854
     height: 442
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -519,10 +548,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 7.2000003
-<<<<<<< HEAD
     y: 533.60004
     width: 1083
     height: 262
+<<<<<<< HEAD
 =======
     y: 532.8
     width: 1212
@@ -540,6 +569,8 @@ MonoBehaviour:
     width: 1223
     height: 268
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -570,6 +601,9 @@ MonoBehaviour:
   m_LastFoldersGridSize: -1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
   m_LastProjectPath: C:\Users\Irene\Desktop\Transversal-4\New Unity Project
   m_LockTracker:
     m_IsLocked: 0
@@ -578,6 +612,7 @@ MonoBehaviour:
     m_SelectedIDs: 402f0000
     m_LastClickedID: 12096
     m_ExpandedIDs: 00000000722a0000d82a0000602b0000742b0000162c0000ae2f0000d6370000d837000000ca9a3b
+<<<<<<< HEAD
 =======
   m_LastProjectPath: D:\Proyecto transversal\Transversal-4\New Unity Project
   m_LockTracker:
@@ -640,6 +675,8 @@ MonoBehaviour:
     m_ExpandedIDs: 000000000a32000064320000e2320000f43200008c330000783600009a3d00009c3d000000ca9a3b
 >>>>>>> 9a6d439f11e821123fff378282a2866430dd0a30
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -672,6 +709,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000722a0000d82a0000602b0000742b0000162c0000ae2f0000d6370000d8370000
 =======
     m_ExpandedIDs: 00000000ec090000520a0000da0a0000ee0a0000900b0000e20e00004637000048370000
@@ -691,6 +729,9 @@ MonoBehaviour:
     m_ExpandedIDs: 000000000a320000e2320000f43200008c330000783600009a3d00009c3d0000
 >>>>>>> 9a6d439f11e821123fff378282a2866430dd0a30
 >>>>>>> parent of 9324b58... aa
+=======
+    m_ExpandedIDs: 00000000722a0000d82a0000602b0000742b0000162c0000ae2f0000d6370000d8370000
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -722,8 +763,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 1
-<<<<<<< HEAD
     m_ExpandedInstanceIDs: c6230000342d0000
+<<<<<<< HEAD
 =======
     m_ExpandedInstanceIDs: c6230000aa0c0000
 >>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
@@ -742,6 +783,8 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -769,6 +812,7 @@ MonoBehaviour:
     m_GridSize: 64
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_DirectoriesAreaWidth: 214
 =======
   m_DirectoriesAreaWidth: 115
@@ -776,6 +820,9 @@ MonoBehaviour:
 =======
   m_DirectoriesAreaWidth: 301
 >>>>>>> parent of 9324b58... aa
+=======
+  m_DirectoriesAreaWidth: 214
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -799,14 +846,12 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     x: 1094.4
     y: 100
     width: 435
-=======
-    x: 1224
-    y: 100
-    width: 306
->>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
     height: 696
 =======
     x: 1533
@@ -854,7 +899,6 @@ MonoBehaviour:
 <<<<<<< HEAD
     x: 7.2000003
     y: 100
-<<<<<<< HEAD
     width: 314
     height: 413
 =======
@@ -875,6 +919,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
     m_ExpandedIDs: 8e6fffff5e70ffff2a71ffff7672ffff9072ffffb8d8ffff98d9ffff72daffffb4dbffffc4dbffffb4ecffffacedffff9eeeffffdcefffffe8efffffe4fbffff0000000060600000
+<<<<<<< HEAD
 =======
     width: 299
     height: 412
@@ -909,6 +954,8 @@ MonoBehaviour:
     m_ExpandedIDs: d861ffffe8a0ffff9ca3ffff00000000b438000072390000
 >>>>>>> 9a6d439f11e821123fff378282a2866430dd0a30
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -954,10 +1001,14 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     x: 325.6
     y: 100
     width: 765
     height: 413
+<<<<<<< HEAD
 =======
     x: 381
     y: 92
@@ -970,6 +1021,8 @@ MonoBehaviour:
     width: 850
     height: 421
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 0
@@ -977,6 +1030,7 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: 1.171407, y: -0.13980317, z: 3.6257915}
@@ -992,6 +1046,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 3.0148249, y: 0.4880635, z: -0.2870726}
 >>>>>>> parent of 9324b58... aa
+=======
+    m_Target: {x: 1.171407, y: -0.13980317, z: 3.6257915}
+    speed: 2
+    m_Value: {x: 1.171407, y: -0.13980317, z: 3.6257915}
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1021,6 +1080,9 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     m_Target: {x: -0.072198614, y: 0.036493514, z: -0.0026434949, w: -0.99671894}
 =======
     m_Target: {x: -0.10769499, y: -0.08578933, z: 0.009328453, w: -0.99043167}
@@ -1032,6 +1094,7 @@ MonoBehaviour:
     speed: 2
 <<<<<<< HEAD
     m_Value: 10.447993
+<<<<<<< HEAD
 =======
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
@@ -1044,6 +1107,8 @@ MonoBehaviour:
 =======
     m_Value: 4.311991
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1078,10 +1143,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     x: 325.6
     y: 100
     width: 765
     height: 413
+<<<<<<< HEAD
 =======
     x: 310.4
     y: 100
@@ -1100,6 +1169,8 @@ MonoBehaviour:
     width: 850
     height: 421
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -1114,10 +1185,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     m_HBaseRangeMin: -306
     m_HBaseRangeMax: 306
     m_VBaseRangeMin: -158.40001
     m_VBaseRangeMax: 158.40001
+<<<<<<< HEAD
 =======
     m_HBaseRangeMin: -363.6
     m_HBaseRangeMax: 363.6
@@ -1136,6 +1211,8 @@ MonoBehaviour:
     m_VBaseRangeMin: -202
     m_VBaseRangeMax: 202
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1144,7 +1221,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1156,10 +1233,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
       width: 765
       height: 396
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 382.5, y: 198}
+<<<<<<< HEAD
 =======
       width: 909
       height: 395
@@ -1178,6 +1259,8 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 425, y: 202}
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1187,10 +1270,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
       x: -382.5
       y: -198
       width: 765
       height: 396
+<<<<<<< HEAD
 =======
       x: -454.5
       y: -197.5
@@ -1209,10 +1296,13 @@ MonoBehaviour:
       width: 850
       height: 404
 >>>>>>> parent of 9324b58... aa
+=======
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1226,6 +1316,9 @@ MonoBehaviour:
 =======
   m_LastWindowPixelSize: {x: 850, y: 421}
 >>>>>>> parent of 9324b58... aa
+=======
+  m_LastWindowPixelSize: {x: 956.25, y: 516.25}
+>>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
