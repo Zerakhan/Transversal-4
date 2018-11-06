@@ -11,6 +11,7 @@ Base path: D:/unity 2.13/Editor/Data
 =======
 Base path: E:/Programas/Unity/Editor/Data
 Cmd: initializeCompiler
+<<<<<<< HEAD
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
@@ -72,5 +73,7 @@ Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
+=======
+>>>>>>> parent of 0f044b7... jijijuju 2
 =======
 >>>>>>> parent of 0f044b7... jijijuju 2

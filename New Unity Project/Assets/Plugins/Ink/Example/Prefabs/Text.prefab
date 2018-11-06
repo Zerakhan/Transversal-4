@@ -77,10 +77,14 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_FontSize: 20
 =======
     m_FontSize: 45
 >>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
+=======
+    m_FontSize: 30
+>>>>>>> parent of 0f044b7... jijijuju 2
 =======
     m_FontSize: 30
 >>>>>>> parent of 0f044b7... jijijuju 2
@@ -92,11 +96,16 @@ MonoBehaviour:
     m_AlignByGeometry: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_RichText: 0
 =======
     m_RichText: 1
 >>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
     m_HorizontalOverflow: 0
+=======
+    m_RichText: 0
+    m_HorizontalOverflow: 1
+>>>>>>> parent of 0f044b7... jijijuju 2
 =======
     m_RichText: 0
     m_HorizontalOverflow: 1
