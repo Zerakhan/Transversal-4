@@ -31,7 +31,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
-  m_VerticalFit: 0
+  m_VerticalFit: 2
 --- !u!114 &11422042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -48,12 +48,12 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 7
+  m_ChildAlignment: 4
   m_Spacing: 0
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
 --- !u!114 &11456674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -76,22 +76,31 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_FontSize: 20
 =======
     m_FontSize: 45
 >>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
+=======
+    m_FontSize: 30
+>>>>>>> parent of 0f044b7... jijijuju 2
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 4
+    m_Alignment: 1
     m_AlignByGeometry: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_RichText: 0
 =======
     m_RichText: 1
 >>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
     m_HorizontalOverflow: 0
+=======
+    m_RichText: 0
+    m_HorizontalOverflow: 1
+>>>>>>> parent of 0f044b7... jijijuju 2
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
