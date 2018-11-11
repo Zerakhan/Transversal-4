@@ -74,58 +74,16 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_FontSize: 20
-=======
-    m_FontSize: 45
->>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
-=======
-    m_FontSize: 30
->>>>>>> parent of 0f044b7... jijijuju 2
-=======
-    m_FontSize: 30
->>>>>>> parent of 0f044b7... jijijuju 2
-=======
-    m_FontSize: 30
->>>>>>> parent of 9324b58... aa
-=======
-    m_FontSize: 20
->>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
+    m_Font: {fileID: 12800000, guid: 9571c2e882058f74ea9e95a332369f18, type: 3}
+    m_FontSize: 40
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_RichText: 0
-<<<<<<< HEAD
-=======
-    m_RichText: 1
->>>>>>> 0f044b768662aa142987bfcbd1dc3841ab41b3f3
-=======
-    m_RichText: 0
->>>>>>> parent of f1e54a6... Merge branch 'master' of https://github.com/Zerakhan/Transversal-4
     m_HorizontalOverflow: 0
-=======
-    m_RichText: 0
-    m_HorizontalOverflow: 1
->>>>>>> parent of 0f044b7... jijijuju 2
-=======
-    m_RichText: 0
-    m_HorizontalOverflow: 1
->>>>>>> parent of 0f044b7... jijijuju 2
-=======
-    m_HorizontalOverflow: 1
->>>>>>> parent of 9324b58... aa
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 

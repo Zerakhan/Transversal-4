@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class sonido : MonoBehaviour {
 
-    float m_MySliderValue;
-    AudioSource m_MyAudioSource;
-
     public AudioSource audioSrc;
     public float musicVolume = 0.5f;
-
 
     void Start()
     {
