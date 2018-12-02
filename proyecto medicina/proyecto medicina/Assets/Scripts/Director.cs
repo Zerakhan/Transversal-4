@@ -3,63 +3,61 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Director : MonoBehaviour {
-    Pregunta pregunta;
-    public int Preguntado = 0;
-    public GameObject Prego;
-    public GameObject Brego;
-    public GameObject Trego;
-    public GameObject Lego;
+
+    public GameObject Escribir;
+    public GameObject Fin;
+    public GameObject InputField;
+    public int XXX = 0;
+    public GameObject Canvastexto;
+    public GameObject Canvasbotones;
+    public GameObject Escritura;
+    public GameObject Botonblock;
     public Camera Cam;
     public GameObject Prota;
-    public GameObject Boton;
-    public GameObject InputField;
-    public GameObject Crego;
 
     void Start()
-    {
-        Crego.SetActive(false);
-        Trego.SetActive(false);
-        Prego.SetActive(false);
-        Brego.SetActive(false);
-        Lego.SetActive(false);
-        Boton.SetActive(false);
+    { //Estado inicial con el que activa
+        Escribir.SetActive(false);
+        Fin.SetActive(false);
         InputField.SetActive(false);
-           }
+        Canvasbotones.SetActive(false);
+        Canvastexto.SetActive(false);
+        Escritura.SetActive(false);
+        Botonblock.SetActive(false);
+    }
 
-    void Update()
+    private void ActualizarPreguntado(int nuevoValor)
     {
-        if (Preguntado == 0)
+        XXX = nuevoValor;
+
+        if (XXX == 0)
         {
         }
-        else if (Preguntado == 1)
+        else if (XXX == 1)
         {
-         Crego.SetActive(true);
-         Cam.GetComponent<moverCamara>().enabled = false;
-         Cam.transform.LookAt(Prota.transform.position);
-         Brego.SetActive(true);
-         Boton.SetActive(true);
-        } 
-        
-        else if (Preguntado == 2)
-        {
-         Crego.SetActive(false);
-         Cam.GetComponent<moverCamara>().enabled = true;
-         Brego.SetActive(false);
-         Prego.SetActive(true);
+            Canvastexto.SetActive(true);
+            Cam.GetComponent<moverCamara>().enabled = false;
+            Cam.transform.LookAt(Prota.transform.position);
+            Canvasbotones.SetActive(true);
+            Botonblock.SetActive(true);
         }
-        else if (Preguntado == 3)
+        else if (XXX == 2)
         {
-            Prego.SetActive(false);
-            Trego.SetActive(true);
-            Lego.SetActive(true);
+            Canvastexto.SetActive(false);
+            Cam.GetComponent<moverCamara>().enabled = true;
+            Canvasbotones.SetActive(false);
+            Escribir.SetActive(true);
+        }
+        else if (XXX == 3)
+        {
+            Escribir.SetActive(false);
+            Escritura.SetActive(true);
+            Fin.SetActive(true);
         }
     }
-    public void Clicked()
+
+    public void Actual()
     {
-        Preguntado = Preguntado + 1;
-    }
-    public void FinOrdenes()
-    {
-        this.Preguntado = 1;
+        ActualizarPreguntado(XXX + 1);
     }
 }
