@@ -10,10 +10,10 @@ public class Director : MonoBehaviour {
     public int XXX = 0;
     public GameObject Canvastexto;
     public GameObject Canvasbotones;
-    public GameObject Escritura;
     public GameObject Botonblock;
     public Camera Cam;
     public GameObject Prota;
+    public GameObject TX;
 
     void Start()
     { //Estado inicial con el que activa
@@ -22,11 +22,10 @@ public class Director : MonoBehaviour {
         InputField.SetActive(false);
         Canvasbotones.SetActive(false);
         Canvastexto.SetActive(false);
-        Escritura.SetActive(false);
         Botonblock.SetActive(false);
     }
 
-    private void ActualizarPreguntado(int nuevoValor)
+    public void ActualizarPreguntado(int nuevoValor)
     {
         XXX = nuevoValor;
 
@@ -51,7 +50,7 @@ public class Director : MonoBehaviour {
         else if (XXX == 3)
         {
             Escribir.SetActive(false);
-            Escritura.SetActive(true);
+            TX.GetComponent<Texto>().Guardar();
             Fin.SetActive(true);
         }
     }

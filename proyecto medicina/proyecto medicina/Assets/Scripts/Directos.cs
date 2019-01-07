@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -36,11 +37,12 @@ public class Directos : MonoBehaviour {
     {
         typedText = txtRef.text;
         //loop básico. Comprueba si es igual, si lo es, hace eso. Si no, al siguiente. Si ya ha pasado 1 vez, no deja pasar una segunda.
-        if (typedText.Equals(motivos) && X1 == true)
+        if (typedText.Equals(motivos, StringComparison.InvariantCultureIgnoreCase) && X1 == true)
         {
             CanvasMotivos.SetActive(true);
             X1 = false;
             typedText = ("Motivos Hechos");
+            
         }
         else if (typedText.Equals(alergias) && X2 == true)
         {
@@ -54,11 +56,5 @@ public class Directos : MonoBehaviour {
     {
         //esto se asigna a un botón en el canvas para limpiar la info de la pantalla
         CanvasMotivos.SetActive(false);
-        CanvasAlergias.SetActive(false);
-        CanvasAlergias2.SetActive(false);
-        CanvasAlergias3.SetActive(false);
-        CanvasAlergias4.SetActive(false);
-        CanvasAlergias5.SetActive(false);
-        CanvasAlergias6.SetActive(false);
     }
 }

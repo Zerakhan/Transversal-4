@@ -323,14 +323,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Botonblock.cs" />
-    <Compile Include="Assets\Scripts\Botonblock2.cs" />
     <Compile Include="Assets\Scripts\botonJugar.cs" />
     <Compile Include="Assets\Scripts\Director.cs" />
     <Compile Include="Assets\Scripts\Directos.cs" />
     <Compile Include="Assets\Scripts\moverCamara.cs" />
     <Compile Include="Assets\Scripts\sonido.cs" />
     <Compile Include="Assets\Scripts\Texto.cs" />
-    <Compile Include="Assets\Scripts\Textual.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Ink\Editor\Resources\InkDefaultTemplate.txt" />
