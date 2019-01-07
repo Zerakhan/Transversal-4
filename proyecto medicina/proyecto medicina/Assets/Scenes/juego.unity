@@ -1877,6 +1877,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txtRef: {fileID: 1375199331}
   typedText: 
+  Bot1: {fileID: 1139954709}
+  Bot2: {fileID: 703376996}
   CanvasMotivos: {fileID: 1065521618}
   CanvasAlergias: {fileID: 0}
   CanvasAlergias2: {fileID: 0}

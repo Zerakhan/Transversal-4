@@ -8,6 +8,9 @@ public class Directos : MonoBehaviour {
     //Aqui van los temas de texto
     public InputField txtRef;
     public string typedText;
+    //botones
+    public GameObject Bot1;
+    public GameObject Bot2;
     //Aqui van los canvas
     public GameObject CanvasMotivos;
     public GameObject CanvasAlergias;
@@ -33,16 +36,23 @@ public class Directos : MonoBehaviour {
     public bool X6 = true;
     public bool X7 = true;
 
+    private void Start()
+    {
+        Bot1.SetActive(false);
+        Bot2.SetActive(true);
+    }
+
     public void Actual()
     {
         typedText = txtRef.text;
         //loop básico. Comprueba si es igual, si lo es, hace eso. Si no, al siguiente. Si ya ha pasado 1 vez, no deja pasar una segunda.
         if (typedText.Equals(motivos, StringComparison.InvariantCultureIgnoreCase) && X1 == true)
         {
+            Bot2.SetActive(false);
             CanvasMotivos.SetActive(true);
             X1 = false;
             typedText = ("Motivos Hechos");
-            
+            Bot1.SetActive(true);
         }
         else if (typedText.Equals(alergias) && X2 == true)
         {
@@ -56,5 +66,7 @@ public class Directos : MonoBehaviour {
     {
         //esto se asigna a un botón en el canvas para limpiar la info de la pantalla
         CanvasMotivos.SetActive(false);
+        Bot2.SetActive(true);
+        Bot1.SetActive(false);
     }
 }
