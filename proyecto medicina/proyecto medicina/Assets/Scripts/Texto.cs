@@ -7,9 +7,9 @@ using UnityEngine.UI;
 
 public class Texto : MonoBehaviour
 {
-	public InputField txtRef;
-	public string typedText;
-    public string [] Final;
+    public InputField txtRef;
+    public string typedText;
+    public string[] Final;
     public GameObject Dir;
 
     public bool Y1;
@@ -20,8 +20,8 @@ public class Texto : MonoBehaviour
     public bool Y6;
     public bool Y7;
 
-    public void Guardar() 
-	{
+    public void Guardar()
+    {
         Dir.GetComponent<Directos>().X1 = Y1;
         Dir.GetComponent<Directos>().X2 = Y2;
         Dir.GetComponent<Directos>().X3 = Y3;
@@ -41,7 +41,7 @@ public class Texto : MonoBehaviour
         {
             SW.WriteLine("Motivos de consulta no preguntados");
         }
-
+        Debug.Log("Llega sin problemos");
         //Separación para que se entienda todo mejor. Lo de arriba es escritura. Lo de abajo, lectura.
         StreamReader SR = new StreamReader(Application.persistentDataPath + "HistoriaClínica.txt");
         {
